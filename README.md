@@ -24,7 +24,7 @@ It helps users create **strong, secure, and memorable passwords** while making t
 ---
 
 ## 📂 Project Structure
-```
+
 
 PASSMATE/
 │-- utils/
@@ -34,7 +34,7 @@ PASSMATE/
 │-- script.js                # Core app functionality
 │-- style.css                # Styling
 
-````
+
 
 ---
 
@@ -42,12 +42,11 @@ PASSMATE/
 1. Clone the repo:
    ```bash
    git clone https://github.com/your-username/passmate.git
-````
+
 
 2. Open the folder in **VS Code** (or any editor).
 3. Open `index.html` in a browser.
    *(You can use a live server extension in VS Code for convenience.)*
-
 ---
 
 ## 📸 Screenshots
@@ -55,13 +54,11 @@ PASSMATE/
 <img width="1366" height="768" alt="Password Generating" src="https://github.com/user-attachments/assets/0a6d5a9b-9c9e-40d2-8354-065ecaff0076" />
 <img width="1366" height="768" alt="Acknowledging" src="https://github.com/user-attachments/assets/bcb88c50-aadb-4131-946e-4b302c1fb8df" />
 <img width="1366" height="768" alt="Password Strength and Memory Story" src="https://github.com/user-attachments/assets/636453bc-7f9c-478e-83e5-0512f777eac8" />
-
 ---
 
 ## 🏅 Achievements
 
 * 🥈 **2nd Prize Winner** at *Cyber Rush Hackathon 2025* organized by μLearn LBSITW
-
 ---
 
 ## 📜 License
