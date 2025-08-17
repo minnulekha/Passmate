@@ -22,9 +22,8 @@ It helps users create **strong, secure, and memorable passwords** while making t
 - **LocalStorage** – Store points & leaderboard  
 
 ---
-
 ## 📂 Project Structure
-
+```
 
 PASSMATE/
 │-- utils/
@@ -34,6 +33,7 @@ PASSMATE/
 │-- script.js                # Core app functionality
 │-- style.css                # Styling
 
+````
 
 
 ---
