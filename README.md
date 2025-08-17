@@ -40,9 +40,9 @@ PASSMATE/
 
 ## ▶️ How to Run
 1. Clone the repo:
-   ```bash
+   ```
    git clone https://github.com/your-username/passmate.git
-
+   ```
 
 2. Open the folder in **VS Code** (or any editor).
 3. Open `index.html` in a browser.
