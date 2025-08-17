@@ -51,12 +51,10 @@ PASSMATE/
 ---
 
 ## 📸 Screenshots
-
-| Home Page                     | Emoji Selection                                     | Password & Strength Meter                               |
-| ----------------------------- | --------------------------------------------------- | ------------------------------------------------------- |
-| ![Home](screenshots/home.png) | ![Emoji Selection](screenshots/emoji-selection.png) | ![Password Strength](screenshots/password-strength.png) |
-
-*(Add your screenshots inside a `screenshots/` folder in the repo.)*
+<img width="1366" height="768" alt="Home Page" src="https://github.com/user-attachments/assets/c66d2ae1-ae85-4da1-a57b-fac463f6c18c" />
+<img width="1366" height="768" alt="Password Generating" src="https://github.com/user-attachments/assets/0a6d5a9b-9c9e-40d2-8354-065ecaff0076" />
+<img width="1366" height="768" alt="Acknowledging" src="https://github.com/user-attachments/assets/bcb88c50-aadb-4131-946e-4b302c1fb8df" />
+<img width="1366" height="768" alt="Password Strength and Memory Story" src="https://github.com/user-attachments/assets/636453bc-7f9c-478e-83e5-0512f777eac8" />
 
 ---
 
