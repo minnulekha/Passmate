@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PassMate - Emoji Password Generator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  
+    <section id="landing-screen" class="full-screen">
+       
+        
+        <div class="floating-icon" style="top: 20%; left: 10%; animation-delay: 0s;">🔒</div>
+        <div class="floating-icon" style="top: 30%; left: 80%; animation-delay: 1s;">🛡️</div>
+        <div class="floating-icon" style="top: 70%; left: 15%; animation-delay: 2s;">💻</div>
+        <div class="floating-icon" style="top: 80%; left: 75%; animation-delay: 3s;">🌐</div>
+        <div class="floating-icon" style="top: 50%; left: 50%; animation-delay: 4s;">🔑</div>
+        <div class="floating-icon" style="top: 25%; left: 65%; animation-delay: 5s;">🖥️</div>
+        <div class="floating-icon" style="top: 65%; left: 30%; animation-delay: 6s;">📡</div>
+        
+        <h1 class="title">🔐 PassMate</h1>
+        <p class="subtitle">Your secure emoji-based password generator</p>
+        <button id="start-btn">Start Generating</button>
+    </section>
+
+    
+    <section id="main-app" class="hidden">
+        <div class="app-header">
+            <h1 class="app-title">🔐 PassMate</h1>
+            <p class="app-description">Select up to 6 emojis to generate your secure password:</p>
+        </div>
+        <div class="selection-counter">
+            <span id="selection-count">0</span> / 6 emojis selected
+        </div>
+        <div id="emoji-grid" class="grid"></div>
+        <div class="output">
+            <h2>Your Password</h2>
+            <div id="password-display" class="password-box">Select emojis to generate password</div>
+            
+            <div class="strength-meter-container">
+                <div class="strength-header">
+                    <span>Password Strength: </span>
+                    <span id="strength-text">None</span>
+                    <span id="points-display" class="points">Points: 0</span>
+                </div>
+                <progress id="strength-meter" value="0" max="100"></progress>
+            </div>
+            
+            <div class="btn-group">
+                <button class="action-btn" onclick="togglePassword()">👁 Show/Hide</button>
+                <button class="action-btn" onclick="copyPassword()">📋 Copy</button>
+                <button class="action-btn" onclick="generateNew()">🔄 New Password</button>
+            </div>
+        </div>
+        <div id="story-container">
+            <h2>Memory Story</h2>
+            <p id="story">Your memory story will appear here once you select emojis.</p>
+        </div>
+    </section>
+
+    <script src="utils/emojiMap.js"></script>
+    <script src="utils/generateStory.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
